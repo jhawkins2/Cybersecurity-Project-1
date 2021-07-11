@@ -52,3 +52,21 @@ Install python-pip
 Install docker python module
 Download and launch a docker elk stack
 The following screenshot displays the result of running docker ps after successfullt configuring the ELK instance
+
+# Target Machines & Beats
+This ELK server is configured to monitor the following machines:
+10.0.1.7
+10.0.1.8
+10.0.1.9
+10.0.1.10
+We have installed the following beat on this machines:
+filebeat-7.6.1-amd64.deb
+This beat allows us to collect the following information from each machine:
+Filebeat is used to send you log files to kibana. Filebeat monitors and collects log events on specified servers.
+# Using the Playbook
+In ordeer to use the playbook, you will need to have an ansible control mode already configured. 
+SSH into the control node and follow the steps below:
+Copy the Filebeat-configuration.yml file to the ELK VM.
+Update the hosts file to include webservers 10.0.1.7, 10.0.1.8, 10.0.1.9, 10.0.1.10
+Run the playbook, and navigate to Kibana to check that the installation worked as expected.
+$ ansible-playbook filebeat-playbook.yml
