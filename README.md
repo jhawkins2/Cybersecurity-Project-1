@@ -15,21 +15,21 @@ Load balancing ensures that the application will be highly available, in additio
 Load balancers protect the servers from a denial of service attack. A load balancers purpose is to distribute traffic among the servers. One positive note from using the Jump Box is that it has great protection from Virtual Machines and public exposure.
 Integrating an ELK server allows easier monitoring and access to the vulnerable VMs for changes to log files and system performance.
 The configuration details of each machine may be found below:
-╔══════════╦══════════╦════════════╦════════════════════╦══╦══╦══╗
-║ name     ║ Function ║ IP address ║ Operating System   ║  ║  ║  ║
-╠══════════╬══════════╬════════════╬════════════════════╬══╬══╬══╣
-║ Jumpbox  ║ Gateway  ║ 10.0.1.4   ║ Linux ubuntu 18.04 ║  ║  ║  ║
-╠══════════╬══════════╬════════════╬════════════════════╬══╬══╬══╣
-║ DVWA-VM1 ║ VM       ║ 10.0.1.7   ║ Linux ubuntu 18.04 ║  ║  ║  ║
-╠══════════╬══════════╬════════════╬════════════════════╬══╬══╬══╣
-║ DVWA-VM2 ║ VM       ║ 10.0.1.8   ║ Linux ubuntu 18.04 ║  ║  ║  ║
-╠══════════╬══════════╬════════════╬════════════════════╬══╬══╬══╣
-║ DVWA-VM3 ║ VM       ║ 10.0.1.9   ║ Linux ubuntu 18.04 ║  ║  ║  ║
-╠══════════╬══════════╬════════════╬════════════════════╬══╬══╬══╣
-║ DVWA-VM4 ║ VM       ║ 10.0.1.10  ║ Linux ubuntu 18.04 ║  ║  ║  ║
-╠══════════╬══════════╬════════════╬════════════════════╬══╬══╬══╣
-║ ELK VM   ║ VM       ║ 10.0.1.12  ║ Linux ubuntu 18.04 ║  ║  ║  ║
-╚══════════╩══════════╩════════════╩════════════════════╩══╩══╩══╝
+╔══════════╦══════════╦════════════╦════════════════════
+║ name     ║ Function ║ IP address ║ Operating System   
+╠══════════╬══════════╬════════════╬════════════════════
+║ Jumpbox  ║ Gateway  ║ 10.0.1.4   ║ Linux ubuntu 18.04 
+╠══════════╬══════════╬════════════╬════════════════════
+║ DVWA-VM1 ║ VM       ║ 10.0.1.7   ║ Linux ubuntu 18.04 
+╠══════════╬══════════╬════════════╬════════════════════
+║ DVWA-VM2 ║ VM       ║ 10.0.1.8   ║ Linux ubuntu 18.04 
+╠══════════╬══════════╬════════════╬════════════════════
+║ DVWA-VM3 ║ VM       ║ 10.0.1.9   ║ Linux ubuntu 18.04 
+╠══════════╬══════════╬════════════╬════════════════════
+║ DVWA-VM4 ║ VM       ║ 10.0.1.10  ║ Linux ubuntu 18.04 
+╠══════════╬══════════╬════════════╬════════════════════
+║ ELK VM   ║ VM       ║ 10.0.1.12  ║ Linux ubuntu 18.04
+╚══════════╩══════════╩════════════╩════════════════════
 # Access Policies
 The machines on the internal network are not exposed to the public internet
 Only the Jumpbox machine can accept connections from the internet. Access to this machine is only allowed for the following IP addresses: 72.84.225.151
