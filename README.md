@@ -2,7 +2,6 @@
 The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to create an ELK Stack Deployment on the Azure environment. These files can be used to either remodel the entire deployment pictured above or specific files that can be used as a guide to install components of the deployment such as filebeats.
-
 This document contains the following:
 Description of the Topology
 Access Policies
