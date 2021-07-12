@@ -1,5 +1,6 @@
 # Cybersecurity-Project-1
 The files in this repository were used to configure the network depicted below.
+
 https://mail.google.com/mail/u/0?ui=2&ik=9a7f9b75a1&attid=0.1.1&permmsgid=msg-f:1705037145093062844&th=17a9823ff21e40bc&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ9uv0sbHTygNNiC6emDHjHy91xpO6WEtFa8TvPtiqyxy8-HgVRurcpBwlCK4tEQwGLi51et-qRK6q7mKemfTfipjxD4-J_9bEXSYp43GjpdzulwPRNs-czdhiU&disp=emb
 These files have been tested and used to create an ELK Stack Deployment on the Azure environment. These files can be used to either remodel the entire deployment pictured above or specific files that can be used as a guide to install components of the deployment such as filebeats.
 This document contains the following:
