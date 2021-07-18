@@ -1,6 +1,6 @@
 # Cybersecurity-Project-1
 The files in this repository were used to configure the network depicted below.
-
+https://docs.google.com/drawings/d/1zpgKuiwoTe284cHmrxglJDn0VTO3SwKODVP1cXJ6agc/edit
 These files have been tested and used to create an ELK Stack Deployment on the Azure environment. These files can be used to either remodel the entire deployment pictured above or specific files that can be used as a guide to install components of the deployment such as filebeats.
 This document contains the following:
 Description of the Topology
