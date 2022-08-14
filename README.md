@@ -63,7 +63,7 @@ filebeat-7.6.1-amd64.deb
 This beat allows us to collect the following information from each machine:
 Filebeat is used to send you log files to kibana. Filebeat monitors and collects log events on specified servers.
 # Using the Playbook
-In ordeer to use the playbook, you will need to have an ansible control mode already configured. 
+In order to use the playbook, you will need to have an ansible control mode already configured. 
 SSH into the control node and follow the steps below:
 Copy the Filebeat-configuration.yml file to the ELK VM.
 Update the hosts file to include webservers 10.0.1.7, 10.0.1.8, 10.0.1.9, 10.0.1.10
